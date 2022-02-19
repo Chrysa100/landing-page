@@ -1,4 +1,8 @@
 # landing-page
 Project Landing Page from Odin.
 
-Starting the project.
+Nothing special to add here.
+
+I made a page for my bunny Billy.
+
+Beginners mode  :)

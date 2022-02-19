@@ -1,0 +1,156 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+.header{
+    background-color: #1f2937;
+    color:#F9FAF8;
+    height: 72px;
+    font-size: 24px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 42px;
+}
+
+a{
+   text-decoration: none;
+}
+
+.hero{
+    background-color: #1f2937;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 300px;
+}
+
+.hero img{
+    width:auto;
+    height: 300px;
+    margin: 20px 100px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    margin: 20px 100px; 
+}
+
+.main-text{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.sub-text, a{
+    color:#E5E7EB;
+    font-size: 20px;
+    margin:10px;
+}
+
+.footer{
+    background-color: #1f2937; 
+    color:#F9FAF8;
+    height: 72px;
+    font-size: 24px;
+    display: flex;
+}
+
+.moment .text{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap; 
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.billy-moments{
+    display: flex;
+    justify-content: center;
+}
+
+.moment img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.moment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote{
+    background-color: #e5e7eB;
+    color:#1f2937;
+    font-size: 36px;
+    font-style: italic;
+    height: 23%;
+    text-align: justify;
+    padding:20px 100px;      
+}
+
+.quote .signature{
+    font-weight: bold;
+    text-align: end;
+}
+
+.action{
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 200px;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.words .big{
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.words{
+    color: #efe7eb;   
+}
+
+button{
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    padding: 5px;
+    background:#3882f6;
+    color:white;
+    border-style: none;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action button{
+    border-color: white;
+    border-style:solid;    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
