@@ -12,6 +12,11 @@ body{
     padding:5px 42px;
 }
 
+.header img{
+    width: auto;
+    height: 70px;
+    margin: 20px;
+}
 a{
    text-decoration: none;
 }
