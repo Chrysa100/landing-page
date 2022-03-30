@@ -1,5 +1,6 @@
 body{
     font-family: Roboto, sans-serif;
+    
 }
 .header{
     background-color: #1f2937;
@@ -61,8 +62,11 @@ a{
     background-color: #1f2937; 
     color:#F9FAF8;
     height: 72px;
-    font-size: 24px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding-bottom: 2px;
 }
 
 .moment .text{
@@ -154,9 +158,6 @@ button{
     border-style:solid;    
 }
 
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
+a{
+    text-decoration: underline;
 }
